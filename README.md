@@ -25,7 +25,7 @@ Available at: https://drive.google.com/file/d/1URNq8vGbhDNBhu_UfD9HrEK8bkgWcqpM/
 |-----------	|-----------------------------------------------------------------------------------------------	|------------------	|
 | msg_id    	| Unique email id                                                                               	| str              	|
 | sent_id   	| Every sentence in the corpus is assigned a sentence id                                        	| integer          	|
-| txt       	| The actual text                                                                               	|                  	|
+| txt       	| The actual text                                                                               	|  str                	|
 | score     	| Politeness score                                                                              	| float            	|
 | is_useful 	| Whether the sentence is useful. Useful sentences are those that pass all the pruning criteria 	| int (0/1)        	|
 | p_tag     	| Politeness tag, assigned based on the politeness score                                        	| str (P_0 to P_9) 	|
@@ -38,16 +38,16 @@ Available at: https://drive.google.com/file/d/1URNq8vGbhDNBhu_UfD9HrEK8bkgWcqpM/
 - The original dataset is located at: https://www.cs.cmu.edu/~./enron/
 
 
-As discussed in the paper, the following steps were followed to create the dataset:
+- As discussed in the paper, the following steps were followed to create the dataset:
 
 
-1. Pre-processing: Tokenization (done using spacy) and conversion to lower case
+1.  Pre-processing: Tokenization (done using spacy) and conversion to lower case
 
-2. We further prune the corpus by removing the sentences that:
-  - were less than 3 words long,
-  - had more than 80% numeri-cal tokens,
-  - contained email addresses, or
-  - had repeatedoccurrences of spurious characters
+2.  We further prune the corpus by removing the sentences that:
+  2.1. were less than 3 words long,
+  2.2 had more than 80% numeri-cal tokens,
+  2.3 contained email addresses, or
+  2.4 had repeatedoccurrences of spurious characters
 
 
 
