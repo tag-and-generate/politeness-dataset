@@ -2,11 +2,13 @@
 
 Dataset for the politeness transfer task
 
+---
 
 ### URL
 
 Available at: https://drive.google.com/file/d/1URNq8vGbhDNBhu_UfD9HrEK8bkgWcqpM/view?usp=sharing
 
+---
 
 ### Sample
 
@@ -18,6 +20,8 @@ Available at: https://drive.google.com/file/d/1URNq8vGbhDNBhu_UfD9HrEK8bkgWcqpM/
 |  41768 | <10338432.1075852561293.JavaMail.evans@thyme> |         2 | we recognize that this is a difficult time in many respects - we would like your input to determine if we have to cancel one or both of these trips .            | 0.969205   |           1 | P_9     | val     |
 | 872593 | <18585159.1075845278983.JavaMail.evans@thyme> |        10 | there are two tabs , one tab contains the days                                                                                                                   | 0.618491   |           1 | P_6     | train   |
 
+
+---
 
 ### Columns 
 
@@ -32,6 +36,7 @@ Available at: https://drive.google.com/file/d/1URNq8vGbhDNBhu_UfD9HrEK8bkgWcqpM/
 | split     	| Split (train/test/dev)                                                                        	| str              	|
 
 
+---
 
 ### Creation
 
