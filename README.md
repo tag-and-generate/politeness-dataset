@@ -7,7 +7,7 @@ Dataset for the politeness transfer task
 
 ### URL
 
-URL: Available at: https://drive.google.com/file/d/1URNq8vGbhDNBhu_UfD9HrEK8bkgWcqpM/view?usp=sharing
+https://drive.google.com/file/d/1URNq8vGbhDNBhu_UfD9HrEK8bkgWcqpM/view?usp=sharing
 
 ---
 
