@@ -2,8 +2,7 @@
 
 Dataset for the politeness transfer task
 
-The hand-curated test-set comprising of 800 sentences is present in this repo. 
-Details of the entire dataset are as below.
+- The hand-curated test-set comprising of 800 sentences is present in this repo.  Details of the entire dataset are as below.
 ---
 
 ### URL
