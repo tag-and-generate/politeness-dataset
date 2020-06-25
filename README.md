@@ -2,10 +2,11 @@
 
 Dataset for the politeness transfer task
 
-- The hand-curated test-set comprising of 800 sentences is present in this repo.  Details of the entire dataset are as below.
 ---
 
-### URL
+## Politeness Dataset
+
+### Location
 
 https://drive.google.com/file/d/1URNq8vGbhDNBhu_UfD9HrEK8bkgWcqpM/view?usp=sharing
 
@@ -52,4 +53,7 @@ https://drive.google.com/file/d/1URNq8vGbhDNBhu_UfD9HrEK8bkgWcqpM/view?usp=shari
 2.  We further prune the corpus by removing the sentences that: were less than 3 words long, had more than 80% numeri-cal tokens, contained email addresses, or had repeatedoccurrences of spurious characters.
 
 
+## Hand curated test-set
+
+- The hand-curated test-set comprising of 800 sentences is present in this [repo](https://github.com/tag-and-generate/politeness-dataset/blob/master/politeness-curated-test.csv).  
 
