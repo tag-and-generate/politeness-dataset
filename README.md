@@ -57,3 +57,7 @@ https://drive.google.com/file/d/1URNq8vGbhDNBhu_UfD9HrEK8bkgWcqpM/view?usp=shari
 
 - The hand-curated test-set comprising of 800 sentences is present in this [repo](https://github.com/tag-and-generate/politeness-dataset/blob/master/politeness-curated-test.csv).  
 
+
+## Dataset for training
+- Dataset with the training ready format + only the ``is_useful == `` rows is located here: https://drive.google.com/file/d/1E9GHwmVM9DL9-KiaIaG5lm_oagLWe908/view?usp=sharing
+
